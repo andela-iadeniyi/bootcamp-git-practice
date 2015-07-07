@@ -30,7 +30,12 @@ def frequency(needle, haystack):
 	'''
 	This function returns the number of times needle appears in haystack
 	'''
-	pass
+	a = 0
+	for key in haystack:
+		if needle == key:
+			a += 1
+	return a
+
 
 def sort(l):
 	'''
