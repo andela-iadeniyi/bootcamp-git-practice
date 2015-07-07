@@ -15,7 +15,12 @@ def intersection(a,b):
 	'''
 	This function returns the intersection of a and b - A list of common elements between a and b
 	'''
-	pass
+	c = []
+	for key in a:
+		for key2 in b:
+			if key == key2:
+				c.append(key)
+	return c
 
 def generate(steps):
 	pass
